@@ -1,0 +1,10 @@
+name: GitHub Main Pipeline
+
+on:
+  workflow_call:
+
+jobs:
+  JobFromGHAPublic:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Hello from the FirstJob of PUBLIC GitHub Reusable"
